@@ -9,3 +9,16 @@ div{
 body{
     background-color: green;
 }
+.simple-donate-btn {
+  background-color: #007bff; /* Blue color */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.simple-donate-btn:hover{
+  background-color: #0056b3; /* Darker blue when hovered */
+}

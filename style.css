@@ -1,0 +1,40 @@
+/* Styles the whole body of the page */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Styles your main heading */
+h1 {
+    color: #027cf5;
+}
+
+/* Styles your paragraphs */
+p {
+    color: #555555;
+    font-size: 18px;
+}
+/* Center and space out the donate section at the bottom */
+.donate-section {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Style the link to look like a real button */
+.donate-btn {
+    background-color: #27ae60; /* A nice charity green */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+/* Make it change color slightly when someone hovers over it */
+.donate-btn:hover {
+    background-color: #219653;
+}
